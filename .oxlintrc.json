@@ -4,6 +4,9 @@
     "react",
     "oxc"
   ],
+  "env": {
+    "browser": true
+  },
   "rules": {
     "react/rules-of-hooks": "error",
     "react/only-export-components": [
