@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { categories } from '../../data/offers.js'
 import { OfferCard } from '../../components/common/OfferCard.jsx'
+import { Icon } from '../../components/common/Icons.jsx'
 export function PromosPage({ offers, onOfferClick, favorites, favoritesOnly, onToggleFavorite }) {
   const [category, setCategory] = useState('All')
   const filtered = offers.filter((offer) => (category === 'All' || offer.category === category) && (!favoritesOnly || favorites.includes(offer.id)))
