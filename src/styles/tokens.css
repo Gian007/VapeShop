@@ -1,0 +1,22 @@
+:root {
+  color-scheme: light;
+  --vp-background: #FAFAF8;
+  --vp-surface: #FFFFFF;
+  --vp-surface-muted: #F5F5F2;
+  --vp-text: #1F2937;
+  --vp-text-muted: #6B7280;
+  --vp-accent: #C3A47B;
+  --vp-accent-soft: #F6E9D4;
+  --vp-accent-dark: #8C683B;
+  --vp-border: #E5E7EB;
+  --vp-dark-action: #1B2026;
+  --vp-success: #22A06B;
+  --vp-danger: #DC4C4C;
+  --vp-shadow: 0 8px 24px rgba(24, 32, 40, .055);
+  --vp-radius: 16px;
+  --vp-section-gap: 24px;
+  --bs-body-font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --bs-body-color: var(--vp-text);
+  --bs-body-bg: var(--vp-background);
+  --bs-border-color: var(--vp-border);
+}

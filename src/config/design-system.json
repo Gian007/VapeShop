@@ -1,0 +1,61 @@
+{
+  "name": "VapePoints",
+  "version": "1.1.0",
+  "status": "review-implementation",
+  "framework": "React + Bootstrap 5.3",
+  "mode": "light",
+  "colors": {
+    "background": "#FAFAF8",
+    "surface": "#FFFFFF",
+    "surfaceMuted": "#F5F5F2",
+    "textPrimary": "#1F2937",
+    "textSecondary": "#6B7280",
+    "accent": "#C3A47B",
+    "accentSoft": "#F6E9D4",
+    "accentDark": "#8C683B",
+    "border": "#E5E7EB",
+    "action": "#1B2026",
+    "success": "#22A06B",
+    "danger": "#DC4C4C"
+  },
+  "typography": {
+    "family": "Inter, system-ui, sans-serif",
+    "bodyPx": 16,
+    "smallPx": 14,
+    "captionPx": 12,
+    "titlePx": 24
+  },
+  "spacing": {
+    "pageMobilePx": 16,
+    "pageTabletPx": 24,
+    "sectionGapPx": 24,
+    "cardGapPx": 16,
+    "cardPaddingPx": 16
+  },
+  "radius": {
+    "cardPx": 16,
+    "buttonPx": 12,
+    "pillPx": 999
+  },
+  "shadow": {
+    "card": "0 8px 24px rgba(24, 32, 40, 0.055)"
+  },
+  "navigation": [
+    "Home",
+    "Promos",
+    "Activity",
+    "Profile"
+  ],
+  "promoImage": {
+    "aspectRatio": "16/9",
+    "fit": "cover"
+  },
+  "rules": [
+    "Use mobile-first responsive Bootstrap layout",
+    "Keep points visible at the top of all authenticated screens",
+    "Display membership ID on Profile, not Home",
+    "Do not introduce membership tiers until requirements are confirmed",
+    "Offer data and points figures are illustrative only until connected to backend",
+    "Do not enable publication of regulated promotional content without compliance review"
+  ]
+}
